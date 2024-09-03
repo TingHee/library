@@ -3,3 +3,10 @@ management:
     web:
       exposure:
         include: info, health, metrics, prometheus
+ 
+spring:
+  groovy:
+    template:
+      check-template-location: false
+ 
+ 
