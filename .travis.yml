@@ -46,6 +46,6 @@ jobs:
 notifications:
   email:
     recipients:
-      - rochertan27@1utar.my
+      - tinghee0815@gmail.com
     on_success: always
     on_failure: always
