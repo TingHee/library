@@ -24,7 +24,7 @@ jobs:
       before_script:
         - echo "Starting test process..."
       script:
-        - mvn test
+        - mvn verify
       after_failure:
         - echo "Tests failed. Check the test results for details."
       after_success:
