@@ -8,11 +8,12 @@ jdk:
 cache:
   directories:
     - $HOME/.mvn/wrapper/
- 
+
+# Build and test stages
 stages:
   - name: Building
   - name: Testing
- 
+
 jobs:
   include:
     - stage: Building
